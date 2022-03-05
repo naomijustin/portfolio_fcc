@@ -7,12 +7,17 @@ body {
 
 h1 {
     font-family: 'Libre Baskerville', serif; 
-    font-size: 150px;
+    font-size: 7rem;
 }
 
 /* Nav */
 #navbar, main {    
     max-width: 1400px;
+    padding: 20px;
+}
+
+#navbar {
+    background-color: #292929;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -28,4 +33,20 @@ h1 {
 
 .nav-link:focus, .nav-link:hover {
     color: #8b8b8b; 
+}
+
+/* Buttons */
+.btn-dark {
+    color: #fff;
+    background-color: #3b3b3b;
+    border-color: #3b3b3b;
+}
+
+.iconLink {
+    color: #cfcfcf; 
+    font-size: 1.5rem;
+}
+
+.iconLink:hover {
+    color: #8b8b8b;
 }
