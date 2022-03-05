@@ -16,6 +16,10 @@ h1 {
     padding: 20px;
 }
 
+.navbar {
+    align-items: start;
+}
+
 #navbar {
     background-color: #292929;
 }
