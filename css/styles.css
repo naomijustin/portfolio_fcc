@@ -1,13 +1,31 @@
 body {
     margin: 0px;    
     font-family: 'Source Sans 3', sans-serif;
-}
-
-#navbar {
-    background-color: #4b4b4b;
+    background-color: #292929;
+    color: #cfcfcf
 }
 
 h1 {
     font-family: 'Libre Baskerville', serif; 
     font-size: 150px;
+}
+
+/* Nav */
+#navbar, main {    
+    max-width: 1400px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #292929;
+    background-color: #cfcfcf;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #cfcfcf; 
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #8b8b8b; 
 }

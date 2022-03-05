@@ -26,11 +26,17 @@
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-        <nav id="navbar" class="text-white" style="position: sticky; top: 0px;">
+        <nav id="navbar" class="text-white navbar mx-auto" style="position: sticky; top: 0px;">
             Header Nav
-            <ul>
-                <li>
-                    <a href="#welcome-section">About</a>    
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#welcome-section">About</a>    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Work</a>    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#welcome-section">Contact</a>    
                 </li>
             </ul>
 
@@ -38,7 +44,7 @@
                 
     
 
-    <main>
+    <main class="mx-auto">
         <section id="welcome-section" class="my-auto row" style="height: 100vh">
             <div class="my-auto">
                 <h1 style="margin-left: 130px;">Hello</h1>
@@ -48,11 +54,19 @@
 
         <section id="projects">
             <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Blandit massa enim nec dui.</p>
 
-            <div class="project-tile">
-                Project 1
-                <a src="https://naomijustin.github.io/technical-document-fcc/">Technical Document</a>
-            </div>
+            <section id="sectionProject1" class="pt-5">
+                <div class="project-tile">
+                    <h3>Project 1</h3>
+    
+                    <a href="https://naomijustin.github.io/technical-document-fcc/" target="_blank">Technical Document</a>
+                </div>
+
+            </section>
+            
+            
         </section>        
     </main>
 
